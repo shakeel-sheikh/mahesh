@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shakeel_Portfolio</title>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" ></script>
+
+        <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   
+     <!-- font Awesome  -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo.png"> -->
+    <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C560BAQH-Aab5nq1psg/company-logo_200_200/0/1610448901182?e=1619654400&v=beta&t=JPm1dp7t3h220NB-Png_5ikEYiQep9z8aBb2tKk5Xb8">
+    <meta property="og:title" content="AM Digitals developed by Shakeel Shaik">
+
+    <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+    <!-- Fevicon -->
+    <link rel="icon" type="image/png" href="assets/shakeel_pic.png"/>
+
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500&display=swap" rel="stylesheet" async>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+
+
+      
+
+    <div class="main" id="section0"></div>
+</head>
+<body>
+
+ <!-- MAIN (Center website) -->
+<div class="main">
+
+  <h1>Welcome to Event Management</h1>
+  <hr>
+  
+  <h1>Filter</h1>
+  <h2>Venu of event</h2>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Convention')"> Convention</button>
+    <button class="btn" onclick="filterSelection('hotels')"> hotels</button>
+    <button class="btn" onclick="filterSelection('fh')"> function halls</button>
+    <button class="btn" onclick="filterSelection('cc')"> conference centres</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column Convention">
+      <div class="content">
+        <img src="D:\000. Visual Studio\Mahesh\images\convention.jpeg" alt="Convention" style="width:100%">
+        <h4>Convention</h4>
+       
+      </div>
+    </div>
+    <div class="column hotels">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\Hotel.jpeg" alt="hotels" style="width:100%">
+        <h4>hotels</h4>
+         
+      </div>
+    </div>
+    <div class="column fh">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\functionhalls.jpeg" alt="function halls" style="width:100%">
+        <h4>function halls</h4>
+        
+      </div>
+    </div>
+    
+    <div class="column cc">
+      <div class="content">
+        <img src="D:\000. Visual Studio\Mahesh\images\conferrencecenters.jpeg" alt="conference centres" style="width:100%">
+        <h4>conference centres</h4>
+       
+      </div>
+    </div>
+
+      
+  <!-- END GRID -->
+  </div>
+  
+ 
+
+   
+  <h2>Type of events</h2>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('e1')"> Conferences,trad show expos, seminars</button>
+    <button class="btn" onclick="filterSelection('e2')"> workshops, college events , team building events</button>
+    <button class="btn" onclick="filterSelection('e3')"> wedding, reception,mehndi, engagements</button>
+    <button class="btn" onclick="filterSelection('e4')"> birthday parties , cocktail parties, cradle ceremony</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column e1">
+      <div class="content">
+        <img src="D:\000. Visual Studio\Mahesh\images\type of events\e1.jpeg"   style="width:100%">
+        <h4>Conferences,trad show expos, seminars</h4>
+        
+      </div>
+    </div>
+    <div class="column e2">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\type of events\e2.jpeg"   style="width:100%">
+        <h4>workshops, college events , team building events</h4>
+       
+      </div>
+    </div>
+    <div class="column e3">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\type of events\e3.jpeg"  style="width:100%">
+        <h4>wedding, reception,mehndi, engagements</h4>
+        
+      </div>
+    </div>
+    
+    <div class="column e4">
+      <div class="content">
+        <img src="D:\000. Visual Studio\Mahesh\images\type of events\e4.jpeg"  style="width:100%">
+        <h4>birthday parties , cocktail parties, cradle ceremony</h4>
+        
+      </div>
+    </div>
+     
+  <!-- END GRID -->
+  </div>
+  
+  
+
+
+
+
+
+
+   
+  <h2>Types of decor</h2>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('d1')"> corporate event's</button>
+    <button class="btn" onclick="filterSelection('d2')"> private events</button>
+   
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column d1">
+      <div class="content">
+        <img src="D:\000. Visual Studio\Mahesh\images\type of decors\d1.jpeg"   style="width:100%">
+        <h4>corporate event's</h4>
+      
+      </div>
+    </div>
+    <div class="column d2">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\type of decors\d2.jpeg"  style="width:100%">
+        <h4> private events</h4>
+     
+      </div>
+    </div>
+    
+   
+  <!-- END GRID -->
+  </div>
+  
+ 
+
+
+
+   
+  <h2>Theme of events</h2>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('te1')">  Traditional decor</button>
+    <button class="btn" onclick="filterSelection('te2')"> contemporary decor</button>
+    <button class="btn" onclick="filterSelection('te3')">  semi - traditional</button>
+    <button class="btn" onclick="filterSelection('te4')"> semi- contemporary</button>
+   
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column te1">
+      <div class="content">
+        <img src="D:\000. Visual Studio\Mahesh\images\Theme of events\te1.jpeg"  style="width:100%">
+        <h4>Traditional decor</h4>
+        
+      </div>
+    </div>
+    <div class="column te2">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\Theme of events\te2.jpeg"   style="width:100%">
+        <h4>contemporary decor</h4>
+        
+      </div>
+    </div>
+    <div class="column te3">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\Theme of events\te3.jpeg"  style="width:100%">
+        <h4>semi - traditional</h4>
+        
+      </div>
+    </div>
+    
+    <div class="column te4">
+      <div class="content">
+      <img src="D:\000. Visual Studio\Mahesh\images\Theme of events\te4.jpeg"   style="width:100%">
+        <h4>semi- contemporary</h4>
+        
+      </div>
+    </div>
+  
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+ 
+
+
+
+
+
+</body>
+</html>
